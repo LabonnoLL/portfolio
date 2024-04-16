@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.body{
+    position: relative;
+    
+    background-color: whitesmoke;
+}
+.b{
+    font-style: italic;
+
+}
+.a{
+    justify-content: space-between;
+    display: flex;
+}
+.c li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.c li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.c li a:hover{
+    color: orange;
+}
+h2{
+    font-size: 40px;
+    color: orange;
+}
+h4{
+    font-size: 30px;
+}
+h6{
+    font-size: 20px;
+    color: orange;
+}
+.flex{
+    display: flex;
+    padding: 8%;
+}
+.half-width{
+    width: 60%;
+}
+img{
+    width: 40%;
+    border-radius: 50%;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange,yellow);
+    
+}
+span{
+    font-size: 30px;
+    color: orangered;
+}
+.special{
+    text-align: center;
+    padding: 0 20%;
+}
+.parent{
+    display: flex;
+    padding: 0 10%;
+}
+.child{
+    box-shadow: 10px 5px 40px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(180, 142, 72),yellow);
+}
+h1{
+    color: coral;
+}
+.skills{
+    margin: auto;
+    text-align: center;
+    padding: 0 10%;
+    
+    
+}
+
+
+.line{
+    margin-bottom: 15px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+.bars{
+    background-color: lightgray;
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+.bars::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: black ;
+}
+.html::before{
+    width: 90%;
+}
+.css::before{
+    width: 80%;
+}
+.java::before{
+    width: 50%;
+}
+.php::before{
+    width: 40%;
+}
+.fa-square-facebook{
+    font-size: 70px ;
+    color: blue;
+    margin-left: 48%;
+}
+.contract{
+    text-align: center;
+    font-size: 30px;
+    color: coral;
+    font-weight: 500;
+}
